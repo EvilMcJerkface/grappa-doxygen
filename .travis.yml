@@ -2,10 +2,13 @@ sudo: false
 language: cpp
 compiler:
   - clang
+
 addons:
   apt:
     packages:
       - doxygen
+      - openmpi
+      
 cache:
   apt: true
   directories:
