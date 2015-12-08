@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['get_5fname',['GET_NAME',['../common_8hpp.html#a699618b24a235364d46933eaf73a189c',1,'common.hpp']]],
+  ['get_5ftype',['GET_TYPE',['../common_8hpp.html#ae614ededcb1de7659e83d8d8dd8ce140',1,'common.hpp']]],
+  ['giga',['GIGA',['../common_8hpp.html#ad63937294d26f46ec6eada84b1ee8fec',1,'common.hpp']]],
+  ['grappa_5fblock_5faligned',['GRAPPA_BLOCK_ALIGNED',['../_addressing_8hpp.html#afaa63c61d977e4a5416bcd7762f1fb55',1,'Addressing.hpp']]],
+  ['grappa_5fcall_5fon_5fxx',['Grappa_call_on_xx',['../_aggregator_8hpp.html#afbedd18b4f3a67f0229b461a5bd7b238',1,'Aggregator.hpp']]],
+  ['grappa_5fcall_5fonx',['Grappa_call_onx',['../_aggregator_8hpp.html#ae972c745423768cb31bf7db0a65bf908',1,'Aggregator.hpp']]],
+  ['grappa_5fdeprecated',['GRAPPA_DEPRECATED',['../common_8hpp.html#abe2f19f429a29d7212b0915e124bb33e',1,'common.hpp']]],
+  ['grappa_5ffunction_5fprofile',['GRAPPA_FUNCTION_PROFILE',['../_performance_tools_8hpp.html#aa9e53940547c448769ed52c72588e8e0',1,'PerformanceTools.hpp']]],
+  ['grappa_5fprofile',['GRAPPA_PROFILE',['../_performance_tools_8hpp.html#abace267d462563290b9ce5d7e6e34dde',1,'PerformanceTools.hpp']]],
+  ['grappa_5fprofile_5fcreate',['GRAPPA_PROFILE_CREATE',['../_performance_tools_8hpp.html#a6622e2faf0ff407c51d7df4ea744d2a6',1,'PerformanceTools.hpp']]],
+  ['grappa_5fprofile_5fstart',['GRAPPA_PROFILE_START',['../_performance_tools_8hpp.html#ad2e9ad1f9b2a8142c9468d3f1b021d78',1,'PerformanceTools.hpp']]],
+  ['grappa_5fprofile_5fstop',['GRAPPA_PROFILE_STOP',['../_performance_tools_8hpp.html#a508429ae9144f8b8058dc8b0859f5534',1,'PerformanceTools.hpp']]],
+  ['grappa_5fprofile_5fthread_5fstart',['GRAPPA_PROFILE_THREAD_START',['../_performance_tools_8hpp.html#aa4b3819b716e03756ee26818db50e355',1,'PerformanceTools.hpp']]],
+  ['grappa_5fprofile_5fthread_5fstop',['GRAPPA_PROFILE_THREAD_STOP',['../_performance_tools_8hpp.html#a5e57a884e89a59ba722b0bbba7696914',1,'PerformanceTools.hpp']]],
+  ['grappa_5ftest_5fargs',['GRAPPA_TEST_ARGS',['../_grappa_8hpp.html#a319fae853819981f369f058316ef6caf',1,'Grappa.hpp']]],
+  ['grappa_5fthread_5ffunction_5fprofile',['GRAPPA_THREAD_FUNCTION_PROFILE',['../_performance_tools_8hpp.html#a65ec277536d7ea39c2f615b0d2d8abe2',1,'PerformanceTools.hpp']]],
+  ['grappa_5fthread_5fprofile',['GRAPPA_THREAD_PROFILE',['../_performance_tools_8hpp.html#aae10fc1557eff64648e1ecb9e4f272d5',1,'PerformanceTools.hpp']]],
+  ['grappa_5ftime',['GRAPPA_TIME',['../common_8hpp.html#a9b33cb20ba42d43bde0d22857ef518c9',1,'common.hpp']]],
+  ['grappa_5ftime_5flog',['GRAPPA_TIME_LOG',['../common_8hpp.html#a2fb51b486292de0397e0c4c6280b159e',1,'common.hpp']]],
+  ['grappa_5ftime_5fregion',['GRAPPA_TIME_REGION',['../common_8hpp.html#a95a4852a5020e79ea1c0d3545ce4d267',1,'common.hpp']]],
+  ['grappa_5ftime_5fvlog',['GRAPPA_TIME_VLOG',['../common_8hpp.html#a5731f1d7822322a9301fe0c32775cc0b',1,'common.hpp']]],
+  ['grappa_5ftimer',['GRAPPA_TIMER',['../common_8hpp.html#af55302d3157c7a643acd721be77bc6aa',1,'common.hpp']]]
+];
