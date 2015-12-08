@@ -7,7 +7,7 @@ addons:
   apt:
     packages:
       - doxygen
-      - openmpi
+      - openmpi-dev
       
 cache:
   apt: true
