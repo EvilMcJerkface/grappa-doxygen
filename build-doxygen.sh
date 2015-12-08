@@ -9,9 +9,11 @@ git clone git@github.com:uwsampa/grappa
 ( cd grappa
     
   # get revision number (# commits in branch) and hash
-  REVISION=$(git rev-list --count HEAD)
+  REVISION=r$(git rev-list --count HEAD)
   HASH=$(git rev-parse HEAD)
-  sed -i x -e "s/^PROJECT_NUMBER.*\$/PROJECT_NUMBER = prerelease r$REVISION, hash $HASH/" system/Doxyfile.in
+  VERSION_STRING="$REVISION, hash $HASH"
+  sed -i x -e "s/^PROJECT_NUMBER.*\$/PROJECT_NUMBER = \"$VERSION_STRING\"/" system/Doxyfile.in
+
   
   # build docs
   ./configure
@@ -36,6 +38,6 @@ git clone git@github.com:uwsampa/grappa-doxygen
   git add tags.xml
   
   # commit and push
-  git commit -m 'Add Doxygen-generated documentation'
+  git commit -m "Add Doxygen-generated documentation for $VERSION_STRING"
   git push
 )
