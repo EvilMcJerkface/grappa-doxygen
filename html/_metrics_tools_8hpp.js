@@ -1,7 +1,5 @@
 var _metrics_tools_8hpp =
 [
-    [ "RunningStandardDeviation", "class_running_standard_deviation.html", "class_running_standard_deviation" ],
-    [ "TotalMetric", "class_total_metric.html", "class_total_metric" ],
     [ "DICT_ADD_STAT_TOTAL", "_metrics_tools_8hpp.html#a873cd6cad332547a40f0b1401db138f3", null ],
     [ "MERGE_STAT_COUNT", "_metrics_tools_8hpp.html#a9a2abb39f1dc02312b0e51c6f7da87ef", null ],
     [ "MERGE_STAT_TOTAL", "_metrics_tools_8hpp.html#a1d513b86b0e3285a5f6ef6dd75ccb599", null ],

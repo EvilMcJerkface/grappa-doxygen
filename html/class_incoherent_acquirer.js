@@ -1,6 +1,5 @@
 var class_incoherent_acquirer =
 [
-    [ "RequestArgs", "struct_incoherent_acquirer_1_1_request_args.html", "struct_incoherent_acquirer_1_1_request_args" ],
     [ "IncoherentAcquirer", "class_incoherent_acquirer.html#a9864dc6ba9fe227ef5093f1e68a48135", null ],
     [ "acquire_reply", "class_incoherent_acquirer.html#a405c62a5488a6fff4ec835ef235feed9", null ],
     [ "acquired", "class_incoherent_acquirer.html#ab81ef38ae64a380c5e67c2c1a33bbd46", null ],

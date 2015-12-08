@@ -7,6 +7,7 @@ var struct_grappa_1_1_global_hash_set_1_1_proxy =
     [ "is_full", "struct_grappa_1_1_global_hash_set_1_1_proxy.html#a23552bef968a0ddd62fd9e22f3de365d", null ],
     [ "sync", "struct_grappa_1_1_global_hash_set_1_1_proxy.html#ad5161ec3f3de7e85c3023c35708bc256", null ],
     [ "keys_to_insert", "struct_grappa_1_1_global_hash_set_1_1_proxy.html#a354ac314253d383ab766aea969d3613a", null ],
+    [ "LOCAL_HASH_SIZE", "struct_grappa_1_1_global_hash_set_1_1_proxy.html#a44307d32210900a2183c265dd55a9d02", null ],
     [ "lookups", "struct_grappa_1_1_global_hash_set_1_1_proxy.html#a39b27099d108d3ed04f5cb3d37abf47e", null ],
     [ "owner", "struct_grappa_1_1_global_hash_set_1_1_proxy.html#a3d8dd2ffd0e7fe93ceec04023fde55ad", null ]
 ];

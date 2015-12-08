@@ -1,6 +1,5 @@
 var _state_timer_8hpp =
 [
-    [ "StateTimer", "class_state_timer.html", null ],
     [ "ST_START", "_state_timer_8hpp.html#a588c816099dc1a16210a4fc8b768eb4f", null ],
     [ "ST_STOP", "_state_timer_8hpp.html#a2ab6045367053ae09fa9af1c7e1f7149", null ],
     [ "STATE_TIMER_ON", "_state_timer_8hpp.html#aef46c20c56d932d7ea024a7001e6995b", null ],

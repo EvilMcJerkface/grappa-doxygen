@@ -9,6 +9,7 @@ var class_global_address =
     [ "is_2D", "class_global_address.html#aa4bdc0e9cb243ec7a24dd61f45ce96fb", null ],
     [ "is_linear", "class_global_address.html#a314e8e8b38b9f035cbcbb91200114561", null ],
     [ "last_byte", "class_global_address.html#a19b61eead58cbb50f25e42d0fb515f1a", null ],
+    [ "Linear", "class_global_address.html#ad74b40263351a0a303cd237e82035658", null ],
     [ "localize", "class_global_address.html#af1cdf48002910bef925dd107fea85483", null ],
     [ "operator GlobalAddress< U >", "class_global_address.html#a89478a4fa9c3914079c2588459bfba2c", null ],
     [ "operator void *", "class_global_address.html#af435ca63987bbcfccf5ff070f6c3cb58", null ],
@@ -23,7 +24,9 @@ var class_global_address =
     [ "operator==", "class_global_address.html#a5c490cac0959cfaa037d20770b724bac", null ],
     [ "pointer", "class_global_address.html#a6adf9b5b8afd2ae7dd9bfda97d19f7e4", null ],
     [ "pool", "class_global_address.html#a3abf929fc9173b55465a628222e0bf67", null ],
+    [ "Raw", "class_global_address.html#a314217be101fb8aedb1c1162358e33b9", null ],
     [ "raw_bits", "class_global_address.html#a691d91feb90df836a57458a34819cdc4", null ],
+    [ "TwoDimensional", "class_global_address.html#ab16ed4b8ae565c01234af2479cb00bf9", null ],
     [ "operator-", "class_global_address.html#aa528050008dda41063a375dd22264046", null ],
     [ "operator<<", "class_global_address.html#ac92d5ccaec3b0a01403b541118e1d0ee", null ]
 ];

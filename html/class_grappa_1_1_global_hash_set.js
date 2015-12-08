@@ -1,11 +1,8 @@
 var class_grappa_1_1_global_hash_set =
 [
-    [ "Cell", "struct_grappa_1_1_global_hash_set_1_1_cell.html", "struct_grappa_1_1_global_hash_set_1_1_cell" ],
-    [ "Entry", "struct_grappa_1_1_global_hash_set_1_1_entry.html", "struct_grappa_1_1_global_hash_set_1_1_entry" ],
-    [ "Proxy", "struct_grappa_1_1_global_hash_set_1_1_proxy.html", "struct_grappa_1_1_global_hash_set_1_1_proxy" ],
-    [ "ResultEntry", "struct_grappa_1_1_global_hash_set_1_1_result_entry.html", "struct_grappa_1_1_global_hash_set_1_1_result_entry" ],
     [ "GlobalHashSet", "class_grappa_1_1_global_hash_set.html#a350a24e777886b54e3f5879dfbac800a", null ],
     [ "computeIndex", "class_grappa_1_1_global_hash_set.html#a142b9d64e3b4eab1f2d68ccaa600e706", null ],
+    [ "create", "class_grappa_1_1_global_hash_set.html#ad28da043eba96ad75a74ce3d8acb1e28", null ],
     [ "destroy", "class_grappa_1_1_global_hash_set.html#a198e00363786aa407e64e65289457d31", null ],
     [ "forall_keys", "class_grappa_1_1_global_hash_set.html#ab2d71cd824ae2d4919c8d4137b6ab513", null ],
     [ "insert", "class_grappa_1_1_global_hash_set.html#af3f019b47a8fdbfc29d38f8c170546a8", null ],

@@ -6,6 +6,7 @@ var class_grappa_1_1_global_vector =
     [ "begin", "class_grappa_1_1_global_vector.html#a1d1c7e0bef5071015bef4708a7186fbd", null ],
     [ "cache_with_wraparound", "class_grappa_1_1_global_vector.html#a755e9b7244b0eeabdca42c4500831a88", null ],
     [ "clear", "class_grappa_1_1_global_vector.html#a87797d63927d41144631fd462e8d33a6", null ],
+    [ "create", "class_grappa_1_1_global_vector.html#a8ed02e8f029c4b5a3dcc47e1d3043ebf", null ],
     [ "dequeue", "class_grappa_1_1_global_vector.html#a94f87e12a92125626adf7639bc30706f", null ],
     [ "destroy", "class_grappa_1_1_global_vector.html#accc02a7728dc9a8bd05855c4856433ad", null ],
     [ "empty", "class_grappa_1_1_global_vector.html#af60700af8417d28fc9e45158de18b354", null ],
