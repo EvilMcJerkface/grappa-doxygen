@@ -12,7 +12,7 @@ set -e
 )
 
 # clone docs repo
-git clone git@github.com:uwsampa/grappa-doxygen
+git clone https://${GITHUB_TOKEN}:@github.com/uwsampa/grappa-doxygen
 
 ( cd grappa-doxygen
   git config user.name Grappa Developers

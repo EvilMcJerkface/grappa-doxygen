@@ -4,7 +4,7 @@
 set -e
 
 # clone source repo
-git clone git@github.com:uwsampa/grappa
+git clone http://github.com/uwsampa/grappa
 
 ( cd grappa
     
