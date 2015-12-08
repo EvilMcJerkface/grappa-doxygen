@@ -7,8 +7,10 @@ compiler:
 
 addons:
   apt:
+    sources:
+    - boost-latest
     packages:
-      - doxygen
+    - doxygen
 
 script:
   - bash build-doxygen.sh
