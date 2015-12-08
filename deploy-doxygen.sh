@@ -3,14 +3,6 @@
 # abort on error
 set -e
 
-( cd grappa
-    
-  # get revision number (# commits in branch) and hash
-  REVISION=r$(git rev-list --count HEAD)
-  HASH=$(git rev-parse HEAD)
-  VERSION_STRING="$REVISION, hash $HASH"
-)
-
 # clone docs repo
 git clone https://${GITHUB_TOKEN}:@github.com/uwsampa/grappa-doxygen
 
@@ -32,6 +24,6 @@ git clone https://${GITHUB_TOKEN}:@github.com/uwsampa/grappa-doxygen
   git add tags.xml
   
   # commit and push
-  git commit -m "Add Doxygen-generated documentation for $VERSION_STRING"
+  git commit -m "Add Doxygen-generated documentation"
   git push
 )
