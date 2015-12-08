@@ -21,23 +21,3 @@ git clone git@github.com:uwsampa/grappa
     make docs
   )
 )
-
-# clone docs repo
-git clone git@github.com:uwsampa/grappa-doxygen
-
-( cd grappa-doxygen
-  git co gh-pages
-  
-  # remove old docs
-  git rm -r html tags.xml
-  
-  # copy in new docs
-  cp -a ../grappa/build/doxygen/html .
-  git add html
-  cp -a ../grappa/build/doxygen/tags.xml .
-  git add tags.xml
-  
-  # commit and push
-  git commit -m "Add Doxygen-generated documentation for $VERSION_STRING"
-  git push
-)
