@@ -26,4 +26,6 @@ git clone https://${GITHUB_TOKEN}:@github.com/uwsampa/grappa-doxygen
   # commit and push
   git commit -m "Add Doxygen-generated documentation"
   git push
+
+  return 0
 )
