@@ -1,20 +1,12 @@
 sudo: false
-
 language: cpp
-
 compiler:
   - clang
-
 addons:
   apt:
-    sources:
-    - boost-latest
     packages:
-    - doxygen
-
+      - doxygen
 script:
-  - bash build-doxygen.sh
-
-deploy:
-  - bash deploy-doxygen.sh
-
+- bash build-doxygen.sh
+- bash deploy-doxygen.sh
+  
