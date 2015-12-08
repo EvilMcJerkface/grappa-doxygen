@@ -15,8 +15,11 @@ set -e
 git clone https://${GITHUB_TOKEN}:@github.com/uwsampa/grappa-doxygen
 
 ( cd grappa-doxygen
+
+  git config --global push.default matching
   git config user.name Grappa Developers
   git config user.email grappa-dev@cs.washington.edu
+
   git checkout gh-pages
   
   # remove old docs
