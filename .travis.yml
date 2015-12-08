@@ -1,0 +1,18 @@
+sudo: false
+
+language: cpp
+
+compiler:
+  - clang
+
+addons:
+  apt:
+    packages:
+      - doxygen
+
+script:
+  - bash build-doxygen.sh
+
+deploy:
+  - bash deploy-doxygen.sh
+
