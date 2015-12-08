@@ -17,7 +17,7 @@ git clone https://${GITHUB_TOKEN}:@github.com/uwsampa/grappa-doxygen
 ( cd grappa-doxygen
   git config user.name Grappa Developers
   git config user.email grappa-dev@cs.washington.edu
-  git co gh-pages
+  git checkout gh-pages
   
   # remove old docs
   git rm -r html tags.xml

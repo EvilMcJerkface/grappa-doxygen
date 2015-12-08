@@ -12,7 +12,7 @@ git clone http://github.com/uwsampa/grappa
   REVISION=r$(git rev-list --count HEAD)
   HASH=$(git rev-parse HEAD)
   VERSION_STRING="$REVISION, hash $HASH"
-  sed -i x -e "s/^PROJECT_NUMBER.*\$/PROJECT_NUMBER = \"$VERSION_STRING\"/" system/Doxyfile.in
+  sed -i.x -e "s/^PROJECT_NUMBER.*\$/PROJECT_NUMBER = \"$VERSION_STRING\"/" system/Doxyfile.in
 
   
   # build docs
