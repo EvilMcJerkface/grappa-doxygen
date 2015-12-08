@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# abort on error
-set -e
+# # abort on error
+# set -e
 
 # clone docs repo
 git clone https://${GITHUB_TOKEN}:@github.com/uwsampa/grappa-doxygen
