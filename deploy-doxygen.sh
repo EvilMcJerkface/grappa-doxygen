@@ -23,9 +23,7 @@ git clone https://${GITHUB_TOKEN}:@github.com/uwsampa/grappa-doxygen
   cp -a ../grappa/build/doxygen/tags.xml .
   git add tags.xml
   
-  # commit and push
-  git commit -m "Add Doxygen-generated documentation"
+  # commit and push. Ignore "error" if there is nothing to commit.
+  git commit -m "Add Doxygen-generated documentation" || true
   git push
-
-  return 0
 )
