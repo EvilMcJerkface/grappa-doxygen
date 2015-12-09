@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['range',['Range',['../struct_range.html',1,'']]],
+  ['range',['Range',['../struct_grappa_1_1_global_vector_1_1_range.html',1,'Grappa::GlobalVector']]],
+  ['reducer',['Reducer',['../class_reducer.html',1,'']]],
+  ['reducer_3c_20t_2c_20reducertype_3a_3aadd_20_3e',['Reducer&lt; T, ReducerType::Add &gt;',['../class_reducer_3_01_t_00_01_reducer_type_1_1_add_01_4.html',1,'']]],
+  ['reducer_3c_20t_2c_20reducertype_3a_3aand_20_3e',['Reducer&lt; T, ReducerType::And &gt;',['../class_reducer_3_01_t_00_01_reducer_type_1_1_and_01_4.html',1,'']]],
+  ['reducer_3c_20t_2c_20reducertype_3a_3amax_20_3e',['Reducer&lt; T, ReducerType::Max &gt;',['../class_reducer_3_01_t_00_01_reducer_type_1_1_max_01_4.html',1,'']]],
+  ['reducer_3c_20t_2c_20reducertype_3a_3amin_20_3e',['Reducer&lt; T, ReducerType::Min &gt;',['../class_reducer_3_01_t_00_01_reducer_type_1_1_min_01_4.html',1,'']]],
+  ['reducer_3c_20t_2c_20reducertype_3a_3aor_20_3e',['Reducer&lt; T, ReducerType::Or &gt;',['../class_reducer_3_01_t_00_01_reducer_type_1_1_or_01_4.html',1,'']]],
+  ['reducerimpl',['ReducerImpl',['../class_reducer_impl.html',1,'']]],
+  ['reducerimpl_3c_20t_2c_20collective_5fadd_20_3e',['ReducerImpl&lt; T, collective_add &gt;',['../class_reducer_impl.html',1,'']]],
+  ['reducerimpl_3c_20t_2c_20collective_5fand_20_3e',['ReducerImpl&lt; T, collective_and &gt;',['../class_reducer_impl.html',1,'']]],
+  ['reducerimpl_3c_20t_2c_20collective_5fmax_20_3e',['ReducerImpl&lt; T, collective_max &gt;',['../class_reducer_impl.html',1,'']]],
+  ['reducerimpl_3c_20t_2c_20collective_5fmin_20_3e',['ReducerImpl&lt; T, collective_min &gt;',['../class_reducer_impl.html',1,'']]],
+  ['reducerimpl_3c_20t_2c_20collective_5for_20_3e',['ReducerImpl&lt; T, collective_or &gt;',['../class_reducer_impl.html',1,'']]],
+  ['remote_5ftask_5fspawn_5fargs',['remote_task_spawn_args',['../structremote__task__spawn__args.html',1,'']]],
+  ['requestargs',['RequestArgs',['../struct_incoherent_acquirer_1_1_request_args.html',1,'IncoherentAcquirer']]],
+  ['requestargs',['RequestArgs',['../struct_incoherent_releaser_1_1_request_args.html',1,'IncoherentReleaser']]],
+  ['resultentry',['ResultEntry',['../struct_grappa_1_1_global_hash_set_1_1_result_entry.html',1,'Grappa::GlobalHashSet']]],
+  ['resultentry',['ResultEntry',['../struct_grappa_1_1_global_hash_map_1_1_result_entry.html',1,'Grappa::GlobalHashMap']]],
+  ['reusemessage',['ReuseMessage',['../class_grappa_1_1_reuse_message.html',1,'Grappa']]],
+  ['reusemessagelist',['ReuseMessageList',['../class_grappa_1_1_reuse_message_list.html',1,'Grappa']]],
+  ['runningstandarddeviation',['RunningStandardDeviation',['../class_running_standard_deviation.html',1,'']]]
+];

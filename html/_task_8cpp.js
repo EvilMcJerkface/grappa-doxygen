@@ -26,8 +26,8 @@ var _task_8cpp =
     [ "GRAPPA_DEFINE_METRIC", "_task_8cpp.html#a83ac2c6bc3ee864b387afdd2805b8250", null ],
     [ "GRAPPA_DEFINE_METRIC", "_task_8cpp.html#afa1ade543b74895417171ad109e0d1ce", null ],
     [ "GRAPPA_DEFINE_METRIC", "_task_8cpp.html#ad5f72b75192ec3c12ba1592e39fceace", null ],
-    [ "GRAPPA_DEFINE_METRIC", "_task_8cpp.html#a1b017ff47141d66a0ed951227ba05c9f", null ],
-    [ "GRAPPA_DEFINE_METRIC", "_task_8cpp.html#a0ecffb0b5c876e8073b13ff438522828", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_task_8cpp.html#a4ed7adcb6b04d67f79ceabc4c82f8337", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_task_8cpp.html#a764a145378eeeef519ef589825897032", null ],
     [ "GRAPPA_DEFINE_METRIC", "_task_8cpp.html#a096c0dfbe1c04947ebb7222aa84924fd", null ],
     [ "GRAPPA_DEFINE_METRIC", "_task_8cpp.html#a4f5058b63f6d4b633135c15ac9bf2692", null ],
     [ "steal_queue_size", "_task_8cpp.html#ad477e1a5ef284bc2fcb8dbff5ecfafba", null ]

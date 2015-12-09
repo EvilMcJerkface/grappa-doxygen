@@ -8,11 +8,9 @@ var class_grappa_1_1_global_completion_event =
     [ "enroll", "class_grappa_1_1_global_completion_event.html#a000132a97fae1e1f1fe226d531e132f4", null ],
     [ "enroll_recurring", "class_grappa_1_1_global_completion_event.html#a07dc5dbdacf1a5552e47f1064979a983", null ],
     [ "get_shared_ptr", "class_grappa_1_1_global_completion_event.html#a37698c3dcd0b8ab99e0529a66b488242", null ],
-    [ "get_user_tracked", "class_grappa_1_1_global_completion_event.html#aaeef02efe0718468bce4a5cd674a4b9e", null ],
     [ "incomplete", "class_grappa_1_1_global_completion_event.html#a5914d1a940c04b5ec49b6d006831e561", null ],
     [ "reset", "class_grappa_1_1_global_completion_event.html#a3349271e1290a48e45bd4dfd69313d7c", null ],
     [ "send_completion", "class_grappa_1_1_global_completion_event.html#abdb75a4a41c11679184a26236c1b12d5", null ],
     [ "set_shared_ptr", "class_grappa_1_1_global_completion_event.html#a129292dc2cec64a09ffbaf878ab00ce9", null ],
-    [ "wait", "class_grappa_1_1_global_completion_event.html#a4964d2a9aa8bffdfa2f242ba100e67f2", null ],
-    [ "master_core", "class_grappa_1_1_global_completion_event.html#ab11d01a55bcb381c517c51ff8f609e7c", null ]
+    [ "wait", "class_grappa_1_1_global_completion_event.html#a4964d2a9aa8bffdfa2f242ba100e67f2", null ]
 ];

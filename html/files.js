@@ -31,7 +31,7 @@ var files =
     [ "ConditionVariable.hpp", "_condition_variable_8hpp.html", "_condition_variable_8hpp" ],
     [ "ConditionVariableLocal.hpp", "_condition_variable_local_8hpp.html", "_condition_variable_local_8hpp" ],
     [ "ContextSwitchRate_bench.cpp", "_context_switch_rate__bench_8cpp.html", "_context_switch_rate__bench_8cpp" ],
-    [ "CountingSemaphoreLocal.hpp", "_counting_semaphore_local_8hpp.html", "_counting_semaphore_local_8hpp" ],
+    [ "CountingSemaphoreLocal.hpp", "_counting_semaphore_local_8hpp.html", null ],
     [ "Delegate.cpp", "_delegate_8cpp.html", "_delegate_8cpp" ],
     [ "Delegate.hpp", "_delegate_8hpp.html", "_delegate_8hpp" ],
     [ "DelegateBase.hpp", "_delegate_base_8hpp.html", "_delegate_base_8hpp" ],
@@ -43,13 +43,21 @@ var files =
     [ "FlatCombiner.hpp", "_flat_combiner_8hpp.html", "_flat_combiner_8hpp" ],
     [ "FullEmpty.hpp", "_full_empty_8hpp.html", "_full_empty_8hpp" ],
     [ "FullEmptyLocal.hpp", "_full_empty_local_8hpp.html", "_full_empty_local_8hpp" ],
-    [ "function_traits.hpp", "function__traits_8hpp.html", null ],
+    [ "function_traits.hpp", "function__traits_8hpp.html", [
+      [ "function_traits", "structfunction__traits.html", null ],
+      [ "function_traits< ReturnType(ClassType::*)(Args...) const  >", "structfunction__traits_3_01_return_type_07_class_type_1_1_5_08_07_args_8_8_8_08_01const_01_01_4.html", "structfunction__traits_3_01_return_type_07_class_type_1_1_5_08_07_args_8_8_8_08_01const_01_01_4" ],
+      [ "arg", "structfunction__traits_3_01_return_type_07_class_type_1_1_5_08_07_args_8_8_8_08_01const_01_01_4_1_1arg.html", "structfunction__traits_3_01_return_type_07_class_type_1_1_5_08_07_args_8_8_8_08_01const_01_01_4_1_1arg" ]
+    ] ],
     [ "GlobalAllocator.cpp", "_global_allocator_8cpp.html", "_global_allocator_8cpp" ],
     [ "GlobalAllocator.hpp", "_global_allocator_8hpp.html", "_global_allocator_8hpp" ],
     [ "GlobalBag.hpp", "_global_bag_8hpp.html", "_global_bag_8hpp" ],
     [ "GlobalCompletionEvent.cpp", "_global_completion_event_8cpp.html", "_global_completion_event_8cpp" ],
     [ "GlobalCompletionEvent.hpp", "_global_completion_event_8hpp.html", "_global_completion_event_8hpp" ],
-    [ "GlobalCounter.hpp", "_global_counter_8hpp.html", null ],
+    [ "GlobalCounter.hpp", "_global_counter_8hpp.html", [
+      [ "GlobalCounter", "class_grappa_1_1_global_counter.html", "class_grappa_1_1_global_counter" ],
+      [ "Master", "struct_grappa_1_1_global_counter_1_1_master.html", "struct_grappa_1_1_global_counter_1_1_master" ],
+      [ "Proxy", "struct_grappa_1_1_global_counter_1_1_proxy.html", "struct_grappa_1_1_global_counter_1_1_proxy" ]
+    ] ],
     [ "GlobalHashMap.cpp", "_global_hash_map_8cpp.html", "_global_hash_map_8cpp" ],
     [ "GlobalHashMap.hpp", "_global_hash_map_8hpp.html", "_global_hash_map_8hpp" ],
     [ "GlobalHashSet.cpp", "_global_hash_set_8cpp.html", "_global_hash_set_8cpp" ],
@@ -57,7 +65,9 @@ var files =
     [ "GlobalMemory.cpp", "_global_memory_8cpp.html", "_global_memory_8cpp" ],
     [ "GlobalMemory.hpp", "_global_memory_8hpp.html", "_global_memory_8hpp" ],
     [ "GlobalMemoryChunk.cpp", "_global_memory_chunk_8cpp.html", "_global_memory_chunk_8cpp" ],
-    [ "GlobalMemoryChunk.hpp", "_global_memory_chunk_8hpp.html", null ],
+    [ "GlobalMemoryChunk.hpp", "_global_memory_chunk_8hpp.html", [
+      [ "GlobalMemoryChunk", "class_global_memory_chunk.html", "class_global_memory_chunk" ]
+    ] ],
     [ "GlobalQueue.cpp", "_global_queue_8cpp.html", "_global_queue_8cpp" ],
     [ "GlobalQueue.hpp", "_global_queue_8hpp.html", "_global_queue_8hpp" ],
     [ "GlobalVector.cpp", "_global_vector_8cpp.html", "_global_vector_8cpp" ],
@@ -66,13 +76,22 @@ var files =
     [ "Graph.hpp", "_graph_8hpp.html", "_graph_8hpp" ],
     [ "Grappa.cpp", "_grappa_8cpp.html", "_grappa_8cpp" ],
     [ "Grappa.hpp", "_grappa_8hpp.html", "_grappa_8hpp" ],
-    [ "Grappa.md", "_grappa_8md.html", "_grappa_8md" ],
     [ "HistogramMetric.cpp", "_histogram_metric_8cpp.html", "_histogram_metric_8cpp" ],
     [ "HistogramMetric.hpp", "_histogram_metric_8hpp.html", "_histogram_metric_8hpp" ],
     [ "IncoherentAcquirer.cpp", "_incoherent_acquirer_8cpp.html", "_incoherent_acquirer_8cpp" ],
-    [ "IncoherentAcquirer.hpp", "_incoherent_acquirer_8hpp.html", null ],
+    [ "IncoherentAcquirer.hpp", "_incoherent_acquirer_8hpp.html", [
+      [ "IncoherentAcquirer", "class_incoherent_acquirer.html", "class_incoherent_acquirer" ],
+      [ "IAMetrics", "class_i_a_metrics.html", null ],
+      [ "IncoherentAcquirer", "class_incoherent_acquirer.html", "class_incoherent_acquirer" ],
+      [ "RequestArgs", "struct_incoherent_acquirer_1_1_request_args.html", "struct_incoherent_acquirer_1_1_request_args" ]
+    ] ],
     [ "IncoherentReleaser.cpp", "_incoherent_releaser_8cpp.html", "_incoherent_releaser_8cpp" ],
-    [ "IncoherentReleaser.hpp", "_incoherent_releaser_8hpp.html", null ],
+    [ "IncoherentReleaser.hpp", "_incoherent_releaser_8hpp.html", [
+      [ "IncoherentReleaser", "class_incoherent_releaser.html", "class_incoherent_releaser" ],
+      [ "IRMetrics", "class_i_r_metrics.html", null ],
+      [ "IncoherentReleaser", "class_incoherent_releaser.html", "class_incoherent_releaser" ],
+      [ "RequestArgs", "struct_incoherent_releaser_1_1_request_args.html", "struct_incoherent_releaser_1_1_request_args" ]
+    ] ],
     [ "KroneckerGenerator.cpp", "_kronecker_generator_8cpp.html", null ],
     [ "LocaleSharedMemory.cpp", "_locale_shared_memory_8cpp.html", "_locale_shared_memory_8cpp" ],
     [ "LocaleSharedMemory.hpp", "_locale_shared_memory_8hpp.html", "_locale_shared_memory_8hpp" ],
@@ -82,7 +101,7 @@ var files =
     [ "Message.hpp", "_message_8hpp.html", "_message_8hpp" ],
     [ "MessageBase.cpp", "_message_base_8cpp.html", null ],
     [ "MessageBase.hpp", "_message_base_8hpp.html", "_message_base_8hpp" ],
-    [ "MessageBaseImpl.hpp", "_message_base_impl_8hpp.html", null ],
+    [ "MessageBaseImpl.hpp", "_message_base_impl_8hpp.html", "_message_base_impl_8hpp" ],
     [ "MessagePool.cpp", "_message_pool_8cpp.html", "_message_pool_8cpp" ],
     [ "MessagePool.hpp", "_message_pool_8hpp.html", "_message_pool_8hpp" ],
     [ "MetricBase.hpp", "_metric_base_8hpp.html", null ],
@@ -99,7 +118,9 @@ var files =
     [ "PerformanceTools.cpp", "_performance_tools_8cpp.html", "_performance_tools_8cpp" ],
     [ "PerformanceTools.hpp", "_performance_tools_8hpp.html", "_performance_tools_8hpp" ],
     [ "PoolAllocator.hpp", "_pool_allocator_8hpp.html", "_pool_allocator_8hpp" ],
-    [ "PushBuffer.hpp", "_push_buffer_8hpp.html", null ],
+    [ "PushBuffer.hpp", "_push_buffer_8hpp.html", [
+      [ "PushBuffer", "struct_push_buffer.html", "struct_push_buffer" ]
+    ] ],
     [ "RDMAAggregator.cpp", "_r_d_m_a_aggregator_8cpp.html", "_r_d_m_a_aggregator_8cpp" ],
     [ "RDMAAggregator.hpp", "_r_d_m_a_aggregator_8hpp.html", "_r_d_m_a_aggregator_8hpp" ],
     [ "RDMABuffer.hpp", "_r_d_m_a_buffer_8hpp.html", "_r_d_m_a_buffer_8hpp" ],
@@ -108,7 +129,9 @@ var files =
     [ "ReuseMessage.hpp", "_reuse_message_8hpp.html", "_reuse_message_8hpp" ],
     [ "ReuseMessageList.hpp", "_reuse_message_list_8hpp.html", "_reuse_message_list_8hpp" ],
     [ "ReusePool.hpp", "_reuse_pool_8hpp.html", null ],
-    [ "Scheduler.hpp", "_scheduler_8hpp.html", null ],
+    [ "Scheduler.hpp", "_scheduler_8hpp.html", [
+      [ "Scheduler", "class_grappa_1_1_scheduler.html", "class_grappa_1_1_scheduler" ]
+    ] ],
     [ "Semaphore.hpp", "_semaphore_8hpp.html", "_semaphore_8hpp" ],
     [ "SharedMessagePool.cpp", "_shared_message_pool_8cpp.html", "_shared_message_pool_8cpp" ],
     [ "SharedMessagePool.hpp", "_shared_message_pool_8hpp.html", "_shared_message_pool_8hpp" ],
@@ -125,7 +148,9 @@ var files =
     [ "StringMetric.hpp", "_string_metric_8hpp.html", null ],
     [ "StringMetricImpl.hpp", "_string_metric_impl_8hpp.html", null ],
     [ "SummarizingMetric.cpp", "_summarizing_metric_8cpp.html", null ],
-    [ "SummarizingMetric.hpp", "_summarizing_metric_8hpp.html", null ],
+    [ "SummarizingMetric.hpp", "_summarizing_metric_8hpp.html", [
+      [ "SummarizingMetric", "class_grappa_1_1_summarizing_metric.html", "class_grappa_1_1_summarizing_metric" ]
+    ] ],
     [ "SummarizingMetricImpl.hpp", "_summarizing_metric_impl_8hpp.html", null ],
     [ "SuspendedDelegate.hpp", "_suspended_delegate_8hpp.html", "_suspended_delegate_8hpp" ],
     [ "Synchronization.hpp", "_synchronization_8hpp.html", null ],
@@ -139,7 +164,10 @@ var files =
     [ "Timestamp.cpp", "_timestamp_8cpp.html", "_timestamp_8cpp" ],
     [ "Timestamp.hpp", "_timestamp_8hpp.html", "_timestamp_8hpp" ],
     [ "TupleGraph.cpp", "_tuple_graph_8cpp.html", "_tuple_graph_8cpp" ],
-    [ "TupleGraph.hpp", "_tuple_graph_8hpp.html", null ],
+    [ "TupleGraph.hpp", "_tuple_graph_8hpp.html", [
+      [ "TupleGraph", "class_grappa_1_1_tuple_graph.html", "class_grappa_1_1_tuple_graph" ],
+      [ "Edge", "struct_grappa_1_1_tuple_graph_1_1_edge.html", "struct_grappa_1_1_tuple_graph_1_1_edge" ]
+    ] ],
     [ "Worker.cpp", "_worker_8cpp.html", "_worker_8cpp" ],
     [ "Worker.hpp", "_worker_8hpp.html", "_worker_8hpp" ]
 ];

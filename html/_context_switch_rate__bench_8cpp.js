@@ -1,5 +1,7 @@
 var _context_switch_rate__bench_8cpp =
 [
+    [ "SixteenBytes", "struct_sixteen_bytes.html", "struct_sixteen_bytes" ],
+    [ "Cacheline", "struct_cacheline.html", "struct_cacheline" ],
     [ "DECLARE_uint64", "_context_switch_rate__bench_8cpp.html#a5d8ccebf5b8e100208a131fedefbb593", null ],
     [ "DEFINE_string", "_context_switch_rate__bench_8cpp.html#a42860d09fda70c37331c5a59094c8934", null ],
     [ "DEFINE_uint64", "_context_switch_rate__bench_8cpp.html#aa85c576749f1b5c9a890b911de25ab23", null ],

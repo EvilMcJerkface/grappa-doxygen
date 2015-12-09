@@ -1,5 +1,6 @@
 var class_allocator =
 [
+    [ "Exception", "class_allocator_1_1_exception.html", null ],
     [ "Allocator", "class_allocator.html#aa1108e66e1e235b2c3f72d76609dcb22", null ],
     [ "dump", "class_allocator.html#aebdff9443e32269e64fce3c9b8130c2f", null ],
     [ "free", "class_allocator.html#a784b2a49428b36eefb10d1095ad294dd", null ],

@@ -12,5 +12,5 @@ var _global_vector_8hpp =
     [ "GRAPPA_DECLARE_METRIC", "_global_vector_8hpp.html#a34f43a4a47b70887ccab9a2fc98ef6f4", null ],
     [ "GRAPPA_DECLARE_METRIC", "_global_vector_8hpp.html#ac24f0e270f73d19a602507ea78cf677d", null ],
     [ "GRAPPA_DECLARE_METRIC", "_global_vector_8hpp.html#ae17616d5c003962176335c9ad757869e", null ],
-    [ "MASTER", "group___containers.html#gae214c4f2d33524de8eb8bc336d6f6a67", null ]
+    [ "MASTER", "_global_vector_8hpp.html#gae214c4f2d33524de8eb8bc336d6f6a67", null ]
 ];

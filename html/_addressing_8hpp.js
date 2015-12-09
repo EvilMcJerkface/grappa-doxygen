@@ -1,7 +1,7 @@
 var _addressing_8hpp =
 [
     [ "BLOCK_SIZE", "_addressing_8hpp.html#ad51ded0bbd705f02f73fc60c0b721ced", null ],
-    [ "GRAPPA_BLOCK_ALIGNED", "_addressing_8hpp.html#a7b7bb2bfa9f9553142a0a2ea11f5082f", null ],
+    [ "GRAPPA_BLOCK_ALIGNED", "_addressing_8hpp.html#afaa63c61d977e4a5416bcd7762f1fb55", null ],
     [ "Pool", "_addressing_8hpp.html#a490ec7a309bd56c082a7c9e4dd738a56", null ],
     [ "global_pointer_to_member", "group___memory.html#ga04f633209f68d7b4e693b5daca5cb2e8", null ],
     [ "iterate_local", "group___memory.html#ga03416da22fab8a809225f2a903eaa0d0", null ],
@@ -11,18 +11,5 @@ var _addressing_8hpp =
     [ "operator-", "group___memory.html#gae2c394b001322028c94daf7c883c6173", null ],
     [ "operator-", "group___memory.html#ga541389b4e363bf01b4b0e9ed7795a20a", null ],
     [ "operator-< char >", "group___memory.html#ga02b83a095a10c1d97f9add500d9469b6", null ],
-    [ "operator<<", "group___memory.html#ga35726ea1da86d2da1316d5879384f3ff", null ],
-    [ "block_size", "_addressing_8hpp.html#ade21f7037cef3e031c7f3b1b2a6018a0", null ],
-    [ "core_bits", "_addressing_8hpp.html#af9f574a2e92ed1be1be3e4f524fd8522", null ],
-    [ "core_mask", "_addressing_8hpp.html#a031d71581bae23f326e21007af8ebf96", null ],
-    [ "core_shift_val", "_addressing_8hpp.html#af2142a1777c81ffd74807a4e57628f92", null ],
-    [ "pointer_bits", "_addressing_8hpp.html#ac67d30897dd5da97e6d313140984e401", null ],
-    [ "pointer_mask", "_addressing_8hpp.html#aeaf30c1b4b3cd5196e005e14fb6f6dff", null ],
-    [ "pointer_shift_val", "_addressing_8hpp.html#ac9c054e0a7ff8c9048c802de759916ad", null ],
-    [ "pool_bits", "_addressing_8hpp.html#a965a2290295b08a4a6757c8281ff9c73", null ],
-    [ "pool_mask", "_addressing_8hpp.html#a190dd54002bc83a9a79a339b3575492a", null ],
-    [ "pool_shift_val", "_addressing_8hpp.html#ac98c450f6a58beed506d03625e77fe2d", null ],
-    [ "tag_bits", "_addressing_8hpp.html#a1fac688c5741f4d4eff1cb5e81798ccc", null ],
-    [ "tag_mask", "_addressing_8hpp.html#a087e6033f4ffb5c04f1e0801379e1a02", null ],
-    [ "tag_shift_val", "_addressing_8hpp.html#ac37bbc69f4f913e1c8e04f50593eb39c", null ]
+    [ "operator<<", "group___memory.html#ga35726ea1da86d2da1316d5879384f3ff", null ]
 ];

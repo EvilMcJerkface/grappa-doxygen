@@ -7,7 +7,6 @@ var class_grappa_1_1_counting_semaphore =
     [ "increment", "class_grappa_1_1_counting_semaphore.html#a89c7a9f7c588c2bac802db6faf88e761", null ],
     [ "try_decrement", "class_grappa_1_1_counting_semaphore.html#af9d6142bee72ce8bd3ae32bfd1a28d1f", null ],
     [ "count_", "class_grappa_1_1_counting_semaphore.html#a1c3cd130e26d6de29ca69250980e8f60", null ],
-    [ "max_value", "class_grappa_1_1_counting_semaphore.html#a662c76d82899e4da791346189cfe0778", null ],
     [ "raw_", "class_grappa_1_1_counting_semaphore.html#a85fde99f236492d914a184c8d87e3e86", null ],
     [ "waiters_", "class_grappa_1_1_counting_semaphore.html#a8a70ade4dc720faf22ff39c0d1850559", null ]
 ];
