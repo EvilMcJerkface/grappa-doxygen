@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Grappa
-   &#160;<span id="projectnumber">r3798, hash 1c29f9eb77ae7cf86644cbef6067b68e22e514ed</span>
+   &#160;<span id="projectnumber">r3802, hash 03769cf344b9486b00f366878440c1702f5a1471</span>
    </div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -301,14 +301,14 @@ $(document).ready(function(){initNavTree('_tuple_graph_8cpp_source.html','');});
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;  <a class="code" href="group___collectives.html#gac74a2d7ffb5b36ec6833ebfc54c16841">on_all_cores</a>( [=] {</div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;      Edge * local_ptr = <a class="code" href="class_grappa_1_1_tuple_graph.html#ad72914e7688a6aaf012ef6ac07911fa8">edges</a>.localize();</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;      Edge * local_end = (<a class="code" href="class_grappa_1_1_tuple_graph.html#ad72914e7688a6aaf012ef6ac07911fa8">edges</a>+<a class="code" href="class_grappa_1_1_tuple_graph.html#a10c17e0120fb880c482e6d15e25cc5ea">nedge</a>).localize();</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;      <span class="keyword">auto</span> local_count = local_end - local_ptr;</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;      <span class="keyword">auto</span> read_count = read_edges.size();</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;      <span class="keywordtype">size_t</span> local_count = local_end - local_ptr;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;      <span class="keywordtype">size_t</span> read_count = read_edges.size();</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;      DVLOG(7) &lt;&lt; <span class="stringliteral">&quot;local_count &quot;</span> &lt;&lt; local_count</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;               &lt;&lt; <span class="stringliteral">&quot; read_count &quot;</span> &lt;&lt; read_count;</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;      </div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;      <span class="comment">// copy everything in our read buffer that fits locally</span></div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;      <span class="keyword">auto</span> local_max = <a class="code" href="common_8hpp.html#a3acffbd305ee72dcd4593c0d8af64a4f">MIN</a>( local_count, read_count );</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;      <span class="keyword">auto</span> local_max = std::min( local_count, read_count );</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;      <a class="code" href="group___containers.html#ga8b39e2df966b32aea640b93e3c5b502c">std::memcpy</a>( local_ptr, &amp;read_edges[0], local_max * <span class="keyword">sizeof</span>(Edge) );</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;      local_offset = local_max;</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;      <a class="code" href="group___synchronization.html#gab6c76d75bef0d7b03eb1b9b8ded580d8">Grappa::barrier</a>();</div>
@@ -557,14 +557,14 @@ $(document).ready(function(){initNavTree('_tuple_graph_8cpp_source.html','');});
 <div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;  <a class="code" href="group___collectives.html#gac74a2d7ffb5b36ec6833ebfc54c16841">on_all_cores</a>( [=] {</div>
 <div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;      Edge * local_ptr = <a class="code" href="class_grappa_1_1_tuple_graph.html#ad72914e7688a6aaf012ef6ac07911fa8">edges</a>.localize();</div>
 <div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;      Edge * local_end = (<a class="code" href="class_grappa_1_1_tuple_graph.html#ad72914e7688a6aaf012ef6ac07911fa8">edges</a>+<a class="code" href="class_grappa_1_1_tuple_graph.html#a10c17e0120fb880c482e6d15e25cc5ea">nedge</a>).localize();</div>
-<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;      <span class="keyword">auto</span> local_count = local_end - local_ptr;</div>
-<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;      <span class="keyword">auto</span> read_count = read_edges.size();</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;      <span class="keywordtype">size_t</span> local_count = local_end - local_ptr;</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;      <span class="keywordtype">size_t</span> read_count = read_edges.size();</div>
 <div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;</div>
 <div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;      DVLOG(7) &lt;&lt; <span class="stringliteral">&quot;local_count &quot;</span> &lt;&lt; local_count</div>
 <div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;               &lt;&lt; <span class="stringliteral">&quot; read_count &quot;</span> &lt;&lt; read_count;</div>
 <div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;      </div>
 <div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;      <span class="comment">// copy everything in our read buffer that fits locally</span></div>
-<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;      <span class="keyword">auto</span> local_max = <a class="code" href="common_8hpp.html#a3acffbd305ee72dcd4593c0d8af64a4f">MIN</a>( local_count, read_count );</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;      <span class="keyword">auto</span> local_max = std::min( local_count, read_count );</div>
 <div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;      <a class="code" href="group___containers.html#ga8b39e2df966b32aea640b93e3c5b502c">std::memcpy</a>( local_ptr, &amp;read_edges[0], local_max * <span class="keyword">sizeof</span>(Edge) );</div>
 <div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;      local_offset = local_max;</div>
 <div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;      <a class="code" href="group___synchronization.html#gab6c76d75bef0d7b03eb1b9b8ded580d8">Grappa::barrier</a>();</div>
@@ -786,7 +786,6 @@ $(document).ready(function(){initNavTree('_tuple_graph_8cpp_source.html','');});
 <div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;} <span class="comment">// namespace Grappa</span></div>
 <div class="ttc" id="class_grappa_1_1_tuple_graph_html"><div class="ttname"><a href="class_grappa_1_1_tuple_graph.html">Grappa::TupleGraph</a></div><div class="ttdef"><b>Definition:</b> <a href="_tuple_graph_8hpp_source.html#l00042">TupleGraph.hpp:42</a></div></div>
 <div class="ttc" id="group___communication_html_gad7a90083b28f17590bdcb069172f33f6"><div class="ttname"><a href="group___communication.html#gad7a90083b28f17590bdcb069172f33f6">Grappa::mycore</a></div><div class="ttdeci">const Core mycore()</div><div class="ttdoc">What&#39;s my core ID in this job? </div><div class="ttdef"><b>Definition:</b> <a href="_communicator_8hpp_source.html#l00316">Communicator.hpp:316</a></div></div>
-<div class="ttc" id="common_8hpp_html_a3acffbd305ee72dcd4593c0d8af64a4f"><div class="ttname"><a href="common_8hpp.html#a3acffbd305ee72dcd4593c0d8af64a4f">MIN</a></div><div class="ttdeci">#define MIN(a, b)</div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00088">common.hpp:88</a></div></div>
 <div class="ttc" id="group___synchronization_html_gab6c76d75bef0d7b03eb1b9b8ded580d8"><div class="ttname"><a href="group___synchronization.html#gab6c76d75bef0d7b03eb1b9b8ded580d8">Grappa::barrier</a></div><div class="ttdeci">void barrier()</div><div class="ttdoc">Blocking SPMD barrier (must be called once on all cores to continue) </div><div class="ttdef"><b>Definition:</b> <a href="_barrier_8hpp_source.html#l00046">Barrier.hpp:46</a></div></div>
 <div class="ttc" id="class_grappa_1_1_tuple_graph_html_a0a7fdfb7762f47223b70b2c460b55344"><div class="ttname"><a href="class_grappa_1_1_tuple_graph.html#a0a7fdfb7762f47223b70b2c460b55344">Grappa::TupleGraph::Load</a></div><div class="ttdeci">static TupleGraph Load(std::string path, std::string format)</div><div class="ttdoc">TupleGraph constructor that loads from a file, dispatching on file format. </div><div class="ttdef"><b>Definition:</b> <a href="_tuple_graph_8cpp_source.html#l00691">TupleGraph.cpp:691</a></div></div>
 <div class="ttc" id="namespace_grappa_html"><div class="ttname"><a href="namespace_grappa.html">Grappa</a></div><div class="ttdoc">this core&#39;s base pointer </div><div class="ttdef"><b>Definition:</b> <a href="_addressing_8hpp_source.html#l00062">Addressing.hpp:62</a></div></div>

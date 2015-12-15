@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Grappa
-   &#160;<span id="projectnumber">r3798, hash 1c29f9eb77ae7cf86644cbef6067b68e22e514ed</span>
+   &#160;<span id="projectnumber">r3802, hash 03769cf344b9486b00f366878440c1702f5a1471</span>
    </div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -92,7 +92,8 @@ $(document).ready(function(){initNavTree('_grappa_8hpp.html','');});
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">Grappa.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -128,12 +129,6 @@ Macros</h2></td></tr>
 <tr class="memitem:a319fae853819981f369f058316ef6caf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_grappa_8hpp.html#a319fae853819981f369f058316ef6caf">GRAPPA_TEST_ARGS</a>&#160;&#160;&#160;&amp;(boost::unit_test::framework::master_test_suite().argc), &amp;(boost::unit_test::framework::master_test_suite().argv)</td></tr>
 <tr class="memdesc:a319fae853819981f369f058316ef6caf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Worker management routines.  <a href="#a319fae853819981f369f058316ef6caf">More...</a><br /></td></tr>
 <tr class="separator:a319fae853819981f369f058316ef6caf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c30457bc353d908bcd82438bc27c9ef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_grappa_8hpp.html#a8c30457bc353d908bcd82438bc27c9ef">unbound</a>&#160;&#160;&#160;<a class="el" href="namespace_grappa.html#ac6ade1fca200baa13c39fe78703897b9aedac80248b7bf68ccfaa9c78bfb81c32">Grappa::TaskMode::Unbound</a></td></tr>
-<tr class="memdesc:a8c30457bc353d908bcd82438bc27c9ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify non-default behavior: stealable tasks.  <a href="#a8c30457bc353d908bcd82438bc27c9ef">More...</a><br /></td></tr>
-<tr class="separator:a8c30457bc353d908bcd82438bc27c9ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada84521eeb4bb9ac422d21429806aff3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_grappa_8hpp.html#ada84521eeb4bb9ac422d21429806aff3">async</a>&#160;&#160;&#160;<a class="el" href="namespace_grappa.html#a1eb494aa98f6908538488b8d98cdbc7aa24aa4117da86c41684ad25742832dfa6">Grappa::SyncMode::Async</a></td></tr>
-<tr class="memdesc:ada84521eeb4bb9ac422d21429806aff3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify non-blocking operation (to be used in loops, delegates, etc)  <a href="#ada84521eeb4bb9ac422d21429806aff3">More...</a><br /></td></tr>
-<tr class="separator:ada84521eeb4bb9ac422d21429806aff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -143,27 +138,17 @@ Functions</h2></td></tr>
 <tr class="memitem:a661c56b3ed1f67b0ae3228e67a738380"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa.html#a661c56b3ed1f67b0ae3228e67a738380">Grappa::finalize</a> ()</td></tr>
 <tr class="memdesc:a661c56b3ed1f67b0ae3228e67a738380"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clean up <a class="el" href="namespace_grappa.html" title="this core&#39;s base pointer ">Grappa</a>.  <a href="namespace_grappa.html#a661c56b3ed1f67b0ae3228e67a738380">More...</a><br /></td></tr>
 <tr class="separator:a661c56b3ed1f67b0ae3228e67a738380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a662afa7aa24eb2276aae1d9d54ed3dae"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa.html#a662afa7aa24eb2276aae1d9d54ed3dae">Grappa::unbound</a> = <a class="el" href="namespace_grappa.html#ac6ade1fca200baa13c39fe78703897b9aedac80248b7bf68ccfaa9c78bfb81c32">Grappa::TaskMode::Unbound</a></td></tr>
+<tr class="memdesc:a662afa7aa24eb2276aae1d9d54ed3dae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify non-default behavior: stealable tasks.  <a href="namespace_grappa.html#a662afa7aa24eb2276aae1d9d54ed3dae">More...</a><br /></td></tr>
+<tr class="separator:a662afa7aa24eb2276aae1d9d54ed3dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22fc185196c687941a35e5cb6da27e53"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa.html#a22fc185196c687941a35e5cb6da27e53">Grappa::async</a> = <a class="el" href="namespace_grappa.html#a1eb494aa98f6908538488b8d98cdbc7aa24aa4117da86c41684ad25742832dfa6">Grappa::SyncMode::Async</a></td></tr>
+<tr class="memdesc:a22fc185196c687941a35e5cb6da27e53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify non-blocking operation (to be used in loops, delegates, etc)  <a href="namespace_grappa.html#a22fc185196c687941a35e5cb6da27e53">More...</a><br /></td></tr>
+<tr class="separator:a22fc185196c687941a35e5cb6da27e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="ada84521eeb4bb9ac422d21429806aff3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define async&#160;&#160;&#160;<a class="el" href="namespace_grappa.html#a1eb494aa98f6908538488b8d98cdbc7aa24aa4117da86c41684ad25742832dfa6">Grappa::SyncMode::Async</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Specify non-blocking operation (to be used in loops, delegates, etc) </p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;forall&lt;async&gt;(...)</div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;delegate::call&lt;async&gt;(...)</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;delegate::write&lt;async&gt;(...)</div>
-</div><!-- fragment --> 
-<p>Definition at line <a class="el" href="_grappa_8hpp_source.html#l00102">102</a> of file <a class="el" href="_grappa_8hpp_source.html">Grappa.hpp</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a319fae853819981f369f058316ef6caf"></a>
 <div class="memitem">
 <div class="memproto">
@@ -178,25 +163,6 @@ Functions</h2></td></tr>
 <p>Helper to be passed to <a class="el" href="namespace_grappa.html#af7b60a124d5f39fd448e002fa2a3e11f" title="Initialize Grappa. ">Grappa::init()</a> for Boost Unit Tests </p>
 
 <p>Definition at line <a class="el" href="_grappa_8hpp_source.html#l00070">70</a> of file <a class="el" href="_grappa_8hpp_source.html">Grappa.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a8c30457bc353d908bcd82438bc27c9ef"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define unbound&#160;&#160;&#160;<a class="el" href="namespace_grappa.html#ac6ade1fca200baa13c39fe78703897b9aedac80248b7bf68ccfaa9c78bfb81c32">Grappa::TaskMode::Unbound</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Specify non-default behavior: stealable tasks. </p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;spawn&lt;unbound&gt;(...)</div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;forall&lt;unbound&gt;(...)</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;forall&lt;unbound,async&gt;(...)</div>
-</div><!-- fragment --> 
-<p>Definition at line <a class="el" href="_grappa_8hpp_source.html#l00091">91</a> of file <a class="el" href="_grappa_8hpp_source.html">Grappa.hpp</a>.</p>
 
 </div>
 </div>

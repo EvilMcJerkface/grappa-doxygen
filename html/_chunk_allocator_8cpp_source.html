@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Grappa
-   &#160;<span id="projectnumber">r3798, hash 1c29f9eb77ae7cf86644cbef6067b68e22e514ed</span>
+   &#160;<span id="projectnumber">r3802, hash 03769cf344b9486b00f366878440c1702f5a1471</span>
    </div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -192,7 +192,7 @@ $(document).ready(function(){initNavTree('_chunk_allocator_8cpp_source.html','')
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    chunkallocator_allocated += std::max( chunk_struct_size, (decltype(chunk_struct_size)) <a class="code" href="common_8hpp.html#af89f60b07247176687889ade776c8e10">CACHE_LINE_SIZE</a> );</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    </div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    new_chunk-&gt;next = NULL;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    new_chunk-&gt;chunk_size = <a class="code" href="common_8hpp.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f">MAX</a>(min_size, aa-&gt;chunk_size) + aa-&gt;align_on;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    new_chunk-&gt;chunk_size = std::max(min_size, aa-&gt;chunk_size) + aa-&gt;align_on;</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    new_chunk-&gt;chunk = Grappa::locale_alloc_aligned&lt;char&gt;(<a class="code" href="common_8hpp.html#af89f60b07247176687889ade776c8e10">CACHE_LINE_SIZE</a>, new_chunk-&gt;chunk_size);</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    CHECK_NOTNULL(new_chunk-&gt;chunk);</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
@@ -245,7 +245,7 @@ $(document).ready(function(){initNavTree('_chunk_allocator_8cpp_source.html','')
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                                 <span class="keywordtype">size_t</span> object_size,</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                                 u_int64_t chunk_count) {</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="keywordtype">int</span> i;</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    object_size = <a class="code" href="common_8hpp.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f">MAX</a>(object_size, <span class="keyword">sizeof</span>(<span class="keywordtype">void</span> *));</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    object_size = std::max(object_size, <span class="keyword">sizeof</span>(<span class="keywordtype">void</span> *));</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    apa-&gt;aa = aligned_allocator_create();</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    aligned_allocator_init(apa-&gt;aa, align_on, object_size * chunk_count);</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordflow">for</span> (i = 0; i &lt; <a class="code" href="_chunk_allocator_8hpp.html#a5cf8a21c34331232517e05749ec66c4a">ALLOCATOR_PREFETCH_DISTANCE</a>; i++)</div>
@@ -370,14 +370,13 @@ $(document).ready(function(){initNavTree('_chunk_allocator_8cpp_source.html','')
 <div class="ttc" id="group___communication_html_ga10f9c1f8a7a57a03d877938950bb97ac"><div class="ttname"><a href="group___communication.html#ga10f9c1f8a7a57a03d877938950bb97ac">Grappa::SharedMessagePool::free</a></div><div class="ttdeci">void free(impl::MessageBase *m, size_t sz)</div><div class="ttdef"><b>Definition:</b> <a href="_shared_message_pool_8cpp_source.html#l00136">SharedMessagePool.cpp:136</a></div></div>
 <div class="ttc" id="_locale_shared_memory_8hpp_html"><div class="ttname"><a href="_locale_shared_memory_8hpp.html">LocaleSharedMemory.hpp</a></div></div>
 <div class="ttc" id="group___memory_html_gaa4a3a0de4cfe636ab80665337cc8d7b0"><div class="ttname"><a href="group___memory.html#gaa4a3a0de4cfe636ab80665337cc8d7b0">Grappa::locale_free</a></div><div class="ttdeci">void locale_free(void *ptr)</div><div class="ttdoc">Free memory that was allocated from locale shared heap. </div><div class="ttdef"><b>Definition:</b> <a href="_locale_shared_memory_8hpp_source.html#l00148">LocaleSharedMemory.hpp:148</a></div></div>
-<div class="ttc" id="common_8hpp_html_af89f60b07247176687889ade776c8e10"><div class="ttname"><a href="common_8hpp.html#af89f60b07247176687889ade776c8e10">CACHE_LINE_SIZE</a></div><div class="ttdeci">#define CACHE_LINE_SIZE</div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00078">common.hpp:78</a></div></div>
+<div class="ttc" id="common_8hpp_html_af89f60b07247176687889ade776c8e10"><div class="ttname"><a href="common_8hpp.html#af89f60b07247176687889ade776c8e10">CACHE_LINE_SIZE</a></div><div class="ttdeci">#define CACHE_LINE_SIZE</div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00075">common.hpp:75</a></div></div>
 <div class="ttc" id="_communicator_8cpp_html_a6925faf8d80069d797cb044471ca94b3"><div class="ttname"><a href="_communicator_8cpp.html#a6925faf8d80069d797cb044471ca94b3">global_communicator</a></div><div class="ttdeci">Communicator global_communicator</div><div class="ttdoc">Global communicator instance. </div><div class="ttdef"><b>Definition:</b> <a href="_communicator_8cpp_source.html#l00082">Communicator.cpp:82</a></div></div>
 <div class="ttc" id="_chunk_allocator_8cpp_html_a5ed2b89fbc8c2c6fffa63ae415059807"><div class="ttname"><a href="_chunk_allocator_8cpp.html#a5ed2b89fbc8c2c6fffa63ae415059807">GRAPPA_DEFINE_METRIC</a></div><div class="ttdeci">GRAPPA_DEFINE_METRIC(SimpleMetric&lt; int64_t &gt;, chunkallocator_append, 0)</div></div>
 <div class="ttc" id="_global_completion_event_8hpp_html_ad946b8f6f79a9ee73d674f86a7964100"><div class="ttname"><a href="_global_completion_event_8hpp.html#ad946b8f6f79a9ee73d674f86a7964100">size</a></div><div class="ttdeci">virtual const size_t size() const </div><div class="ttdoc">Unserialized message size. </div><div class="ttdef"><b>Definition:</b> <a href="_global_completion_event_8hpp_source.html#l00138">GlobalCompletionEvent.hpp:138</a></div></div>
 <div class="ttc" id="_chunk_allocator_8hpp_html"><div class="ttname"><a href="_chunk_allocator_8hpp.html">ChunkAllocator.hpp</a></div></div>
 <div class="ttc" id="_chunk_allocator_8cpp_html_aea799afbdfdf47085a6bc92225aa8bc7"><div class="ttname"><a href="_chunk_allocator_8cpp.html#aea799afbdfdf47085a6bc92225aa8bc7">DECLARE_int64</a></div><div class="ttdeci">DECLARE_int64(shared_pool_max_size)</div></div>
-<div class="ttc" id="common_8hpp_html_a2f62b3cca99dd27d1e326a2cf084beee"><div class="ttname"><a href="common_8hpp.html#a2f62b3cca99dd27d1e326a2cf084beee">ALIGN_UP</a></div><div class="ttdeci">#define ALIGN_UP(x, y)</div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00092">common.hpp:92</a></div></div>
-<div class="ttc" id="common_8hpp_html_afa99ec4acc4ecb2dc3c2d05da15d0e3f"><div class="ttname"><a href="common_8hpp.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f">MAX</a></div><div class="ttdeci">#define MAX(a, b)</div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00085">common.hpp:85</a></div></div>
+<div class="ttc" id="common_8hpp_html_a2f62b3cca99dd27d1e326a2cf084beee"><div class="ttname"><a href="common_8hpp.html#a2f62b3cca99dd27d1e326a2cf084beee">ALIGN_UP</a></div><div class="ttdeci">#define ALIGN_UP(x, y)</div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00082">common.hpp:82</a></div></div>
 <div class="ttc" id="class_communicator_html_a5df466f0663d29fc0b1cb1d67840913c"><div class="ttname"><a href="class_communicator.html#a5df466f0663d29fc0b1cb1d67840913c">Communicator::poll</a></div><div class="ttdeci">void poll(unsigned int max_receives=0)</div><div class="ttdef"><b>Definition:</b> <a href="_communicator_8cpp_source.html#l00474">Communicator.cpp:474</a></div></div>
 <div class="ttc" id="_chunk_allocator_8hpp_html_a5cf8a21c34331232517e05749ec66c4a"><div class="ttname"><a href="_chunk_allocator_8hpp.html#a5cf8a21c34331232517e05749ec66c4a">ALLOCATOR_PREFETCH_DISTANCE</a></div><div class="ttdeci">#define ALLOCATOR_PREFETCH_DISTANCE</div><div class="ttdef"><b>Definition:</b> <a href="_chunk_allocator_8hpp_source.html#l00042">ChunkAllocator.hpp:42</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Grappa
-   &#160;<span id="projectnumber">r3798, hash 1c29f9eb77ae7cf86644cbef6067b68e22e514ed</span>
+   &#160;<span id="projectnumber">r3802, hash 03769cf344b9486b00f366878440c1702f5a1471</span>
    </div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -152,10 +152,6 @@ Macros</h2></td></tr>
 <tr class="separator:a368e7704f92e34c8ea0a5c263a95a1b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31f99d9c502b52b5f36dc7e2028c2e80"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8hpp.html#a31f99d9c502b52b5f36dc7e2028c2e80">BILLION</a>&#160;&#160;&#160;(1000ULL * MILLION)</td></tr>
 <tr class="separator:a31f99d9c502b52b5f36dc7e2028c2e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa99ec4acc4ecb2dc3c2d05da15d0e3f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8hpp.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f">MAX</a>(a,  b)&#160;&#160;&#160;((a) &lt; (b) ? (b) : (a))</td></tr>
-<tr class="separator:afa99ec4acc4ecb2dc3c2d05da15d0e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3acffbd305ee72dcd4593c0d8af64a4f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8hpp.html#a3acffbd305ee72dcd4593c0d8af64a4f">MIN</a>(a,  b)&#160;&#160;&#160;((a) &gt; (b) ? (b) : (a))</td></tr>
-<tr class="separator:a3acffbd305ee72dcd4593c0d8af64a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f62b3cca99dd27d1e326a2cf084beee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8hpp.html#a2f62b3cca99dd27d1e326a2cf084beee">ALIGN_UP</a>(x,  y)</td></tr>
 <tr class="separator:a2f62b3cca99dd27d1e326a2cf084beee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe2f19f429a29d7212b0915e124bb33e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8hpp.html#abe2f19f429a29d7212b0915e124bb33e">GRAPPA_DEPRECATED</a>&#160;&#160;&#160;__attribute__((deprecated))</td></tr>
@@ -230,7 +226,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a0829a5e90a24afd12645b3d48cd08913"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct unique_ptr more easily.  <a href="#a0829a5e90a24afd12645b3d48cd08913">More...</a><br /></td></tr>
 <tr class="separator:a0829a5e90a24afd12645b3d48cd08913"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10cafc5a51b1eefe09225ca90dd79efb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">Grappa::walltime</a> (void)</td></tr>
-<tr class="memdesc:a10cafc5a51b1eefe09225ca90dd79efb"><td class="mdescLeft">&#160;</td><td class="mdescRight">"Universal" wallclock time (works at least for Mac, MTA, and most Linux)  <a href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">More...</a><br /></td></tr>
+<tr class="memdesc:a10cafc5a51b1eefe09225ca90dd79efb"><td class="mdescLeft">&#160;</td><td class="mdescRight">"Universal" wallclock time (works at least for Mac, and most Linux)  <a href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">More...</a><br /></td></tr>
 <tr class="separator:a10cafc5a51b1eefe09225ca90dd79efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afebb4c99f1d34f8cb2b9bce7ebecf8e5"><td class="memTemplParams" colspan="2">template&lt;typename T , unsigned B&gt; </td></tr>
 <tr class="memitem:afebb4c99f1d34f8cb2b9bce7ebecf8e5"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacebittwiddle.html#afebb4c99f1d34f8cb2b9bce7ebecf8e5">bittwiddle::signextend</a> (const T x)</td></tr>
@@ -302,7 +298,7 @@ Functions</h2></td></tr>
 <div class="line">        ((<span class="keywordtype">void</span> *)(((u_int64_t)(x) &amp; (~(u_int64_t)((y)-1)))+(y))) \</div>
 <div class="line">        : ((<span class="keywordtype">void</span> *)(x)))</div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00092">92</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00082">82</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -330,7 +326,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00307">307</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00295">295</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -362,10 +358,10 @@ Functions</h2></td></tr>
 <div class="line">BOOST_PP_SEQ_ENUM(BOOST_PP_SEQ_TRANSFORM( \</div>
 <div class="line"><a class="code" href="common_8hpp.html#ac41e2dc2d3a69342477ce524758d929b">AUTO_CONSTRUCTOR_DETAIL_INIT</a>, BOOST_PP_EMPTY, members)) \</div>
 <div class="line">{}</div>
-<div class="ttc" id="common_8hpp_html_ac41e2dc2d3a69342477ce524758d929b"><div class="ttname"><a href="common_8hpp.html#ac41e2dc2d3a69342477ce524758d929b">AUTO_CONSTRUCTOR_DETAIL_INIT</a></div><div class="ttdeci">#define AUTO_CONSTRUCTOR_DETAIL_INIT(r, data, member)</div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00297">common.hpp:297</a></div></div>
-<div class="ttc" id="common_8hpp_html_a3c5a56a632cb5158d772d8baef216558"><div class="ttname"><a href="common_8hpp.html#a3c5a56a632cb5158d772d8baef216558">AUTO_CONSTRUCTOR_DETAIL_PARAM</a></div><div class="ttdeci">#define AUTO_CONSTRUCTOR_DETAIL_PARAM(r, data, member)</div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00291">common.hpp:291</a></div></div>
+<div class="ttc" id="common_8hpp_html_ac41e2dc2d3a69342477ce524758d929b"><div class="ttname"><a href="common_8hpp.html#ac41e2dc2d3a69342477ce524758d929b">AUTO_CONSTRUCTOR_DETAIL_INIT</a></div><div class="ttdeci">#define AUTO_CONSTRUCTOR_DETAIL_INIT(r, data, member)</div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00285">common.hpp:285</a></div></div>
+<div class="ttc" id="common_8hpp_html_a3c5a56a632cb5158d772d8baef216558"><div class="ttname"><a href="common_8hpp.html#a3c5a56a632cb5158d772d8baef216558">AUTO_CONSTRUCTOR_DETAIL_PARAM</a></div><div class="ttdeci">#define AUTO_CONSTRUCTOR_DETAIL_PARAM(r, data, member)</div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00279">common.hpp:279</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00300">300</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00288">288</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -399,7 +395,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00297">297</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00285">285</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -433,7 +429,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00291">291</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00279">279</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -451,7 +447,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00310">310</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00298">298</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -465,7 +461,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00082">82</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00079">79</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -479,7 +475,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00078">78</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00075">75</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -513,7 +509,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00289">289</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00277">277</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -547,7 +543,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00294">294</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00282">282</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -571,7 +567,7 @@ Functions</h2></td></tr>
 <p>Disable copy constructor and assignment operator. </p>
 <p>Put this in your class' private declarations. (from google public C++ coding standards) </p>
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00168">168</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00156">156</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -605,12 +601,12 @@ Functions</h2></td></tr>
 <div class="line">inline <span class="keywordtype">void</span> <a class="code" href="struct_functor.html#afc462ec46f87886b2e2e9dd06c3689e5">operator()</a>() <span class="keyword">const</span>; \</div>
 <div class="line">}; \</div>
 <div class="line">inline <span class="keywordtype">void</span> name::operator()() const</div>
-<div class="ttc" id="struct_functor_html"><div class="ttname"><a href="struct_functor.html">Functor</a></div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00313">common.hpp:313</a></div></div>
-<div class="ttc" id="common_8hpp_html_adaec39cc953356dec3728e157df4aff5"><div class="ttname"><a href="common_8hpp.html#adaec39cc953356dec3728e157df4aff5">AUTO_DECLS</a></div><div class="ttdeci">#define AUTO_DECLS(members)</div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00310">common.hpp:310</a></div></div>
-<div class="ttc" id="common_8hpp_html_a8a20490f42add0a977b98d4ebb80a7b4"><div class="ttname"><a href="common_8hpp.html#a8a20490f42add0a977b98d4ebb80a7b4">AUTO_CONSTRUCTOR</a></div><div class="ttdeci">#define AUTO_CONSTRUCTOR(className, members)</div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00307">common.hpp:307</a></div></div>
+<div class="ttc" id="struct_functor_html"><div class="ttname"><a href="struct_functor.html">Functor</a></div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00301">common.hpp:301</a></div></div>
+<div class="ttc" id="common_8hpp_html_adaec39cc953356dec3728e157df4aff5"><div class="ttname"><a href="common_8hpp.html#adaec39cc953356dec3728e157df4aff5">AUTO_DECLS</a></div><div class="ttdeci">#define AUTO_DECLS(members)</div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00298">common.hpp:298</a></div></div>
+<div class="ttc" id="common_8hpp_html_a8a20490f42add0a977b98d4ebb80a7b4"><div class="ttname"><a href="common_8hpp.html#a8a20490f42add0a977b98d4ebb80a7b4">AUTO_CONSTRUCTOR</a></div><div class="ttdeci">#define AUTO_CONSTRUCTOR(className, members)</div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00295">common.hpp:295</a></div></div>
 <div class="ttc" id="struct_functor_html_afc462ec46f87886b2e2e9dd06c3689e5"><div class="ttname"><a href="struct_functor.html#afc462ec46f87886b2e2e9dd06c3689e5">Functor::operator()</a></div><div class="ttdeci">void operator()()</div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00317">317</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00305">305</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -628,7 +624,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00287">287</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00275">275</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -646,7 +642,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00285">285</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00273">273</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -660,7 +656,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00075">75</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00072">72</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -676,7 +672,7 @@ Functions</h2></td></tr>
 
 <p>Use to deprecate old APIs. </p>
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00098">98</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00088">88</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -708,9 +704,9 @@ Functions</h2></td></tr>
 <div class="line">     block \</div>
 <div class="line">     var = <a class="code" href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">Grappa::walltime</a>()-_tmptime; \</div>
 <div class="line">   } <span class="keywordflow">while</span>(0)</div>
-<div class="ttc" id="namespace_grappa_html_a10cafc5a51b1eefe09225ca90dd79efb"><div class="ttname"><a href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">Grappa::walltime</a></div><div class="ttdeci">double walltime(void)</div><div class="ttdoc">"Universal" wallclock time (works at least for Mac, MTA, and most Linux) </div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00110">common.hpp:110</a></div></div>
+<div class="ttc" id="namespace_grappa_html_a10cafc5a51b1eefe09225ca90dd79efb"><div class="ttname"><a href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">Grappa::walltime</a></div><div class="ttdeci">double walltime(void)</div><div class="ttdoc">"Universal" wallclock time (works at least for Mac, and most Linux) </div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00100">common.hpp:100</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00134">134</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00122">122</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -729,9 +725,9 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">double</span> _tmpstart = <a class="code" href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">Grappa::walltime</a>(), _tmptime = -1; _tmptime &lt; 0; \</div>
 <div class="line">         LOG(INFO) &lt;&lt; name &lt;&lt; <span class="stringliteral">&quot;: &quot;</span> &lt;&lt; (<a class="code" href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">Grappa::walltime</a>()-_tmpstart), _tmptime = 1)</div>
-<div class="ttc" id="namespace_grappa_html_a10cafc5a51b1eefe09225ca90dd79efb"><div class="ttname"><a href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">Grappa::walltime</a></div><div class="ttdeci">double walltime(void)</div><div class="ttdoc">"Universal" wallclock time (works at least for Mac, MTA, and most Linux) </div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00110">common.hpp:110</a></div></div>
+<div class="ttc" id="namespace_grappa_html_a10cafc5a51b1eefe09225ca90dd79efb"><div class="ttname"><a href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">Grappa::walltime</a></div><div class="ttdeci">double walltime(void)</div><div class="ttdoc">"Universal" wallclock time (works at least for Mac, and most Linux) </div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00100">common.hpp:100</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00146">146</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00134">134</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -750,9 +746,9 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">double</span> _tmpstart = <a class="code" href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">Grappa::walltime</a>(), _tmptime = -1; _tmptime &lt; 0; \</div>
 <div class="line">         var += (<a class="code" href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">Grappa::walltime</a>()-_tmpstart), _tmptime = 1)</div>
-<div class="ttc" id="namespace_grappa_html_a10cafc5a51b1eefe09225ca90dd79efb"><div class="ttname"><a href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">Grappa::walltime</a></div><div class="ttdeci">double walltime(void)</div><div class="ttdoc">"Universal" wallclock time (works at least for Mac, MTA, and most Linux) </div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00110">common.hpp:110</a></div></div>
+<div class="ttc" id="namespace_grappa_html_a10cafc5a51b1eefe09225ca90dd79efb"><div class="ttname"><a href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">Grappa::walltime</a></div><div class="ttdeci">double walltime(void)</div><div class="ttdoc">"Universal" wallclock time (works at least for Mac, and most Linux) </div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00100">common.hpp:100</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00155">155</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00143">143</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -788,9 +784,9 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">VLOG(level) &lt;&lt; indent &lt;&lt; name &lt;&lt; <span class="stringliteral">&quot;...&quot;</span>; \</div>
 <div class="line">    for (<span class="keywordtype">double</span> _tmpstart = <a class="code" href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">Grappa::walltime</a>(), _tmptime = -1; _tmptime &lt; 0; \</div>
 <div class="line">       VLOG(level) &lt;&lt; indent &lt;&lt; <span class="stringliteral">&quot;  (&quot;</span> &lt;&lt; (<a class="code" href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">Grappa::walltime</a>()-_tmpstart) &lt;&lt; <span class="stringliteral">&quot; s)&quot;</span>, _tmptime = 1)</div>
-<div class="ttc" id="namespace_grappa_html_a10cafc5a51b1eefe09225ca90dd79efb"><div class="ttname"><a href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">Grappa::walltime</a></div><div class="ttdeci">double walltime(void)</div><div class="ttdoc">"Universal" wallclock time (works at least for Mac, MTA, and most Linux) </div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00110">common.hpp:110</a></div></div>
+<div class="ttc" id="namespace_grappa_html_a10cafc5a51b1eefe09225ca90dd79efb"><div class="ttname"><a href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">Grappa::walltime</a></div><div class="ttdeci">double walltime(void)</div><div class="ttdoc">"Universal" wallclock time (works at least for Mac, and most Linux) </div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00100">common.hpp:100</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00150">150</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00138">138</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -810,9 +806,9 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">double</span> _tmpstart = <a class="code" href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">Grappa::walltime</a>(), _tmptime = -1; \</div>
 <div class="line">         _tmptime &lt; 0; \</div>
 <div class="line">         var = _tmptime = <a class="code" href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">Grappa::walltime</a>() - _tmpstart)</div>
-<div class="ttc" id="namespace_grappa_html_a10cafc5a51b1eefe09225ca90dd79efb"><div class="ttname"><a href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">Grappa::walltime</a></div><div class="ttdeci">double walltime(void)</div><div class="ttdoc">"Universal" wallclock time (works at least for Mac, MTA, and most Linux) </div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00110">common.hpp:110</a></div></div>
+<div class="ttc" id="namespace_grappa_html_a10cafc5a51b1eefe09225ca90dd79efb"><div class="ttname"><a href="namespace_grappa.html#a10cafc5a51b1eefe09225ca90dd79efb">Grappa::walltime</a></div><div class="ttdeci">double walltime(void)</div><div class="ttdoc">"Universal" wallclock time (works at least for Mac, and most Linux) </div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00100">common.hpp:100</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00141">141</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00129">129</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -826,35 +822,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00073">73</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="afa99ec4acc4ecb2dc3c2d05da15d0e3f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAX</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">a, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">b&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((a) &lt; (b) ? (b) : (a))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00085">85</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00070">70</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -868,7 +836,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00074">74</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00071">71</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -882,35 +850,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00081">81</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a3acffbd305ee72dcd4593c0d8af64a4f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MIN</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">a, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">b&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((a) &gt; (b) ? (b) : (a))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00088">88</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00078">78</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -924,7 +864,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00072">72</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00069">69</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -938,7 +878,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00077">77</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00074">74</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -963,7 +903,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Read 64-bit timestamp counter. </p>
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00199">199</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00187">187</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -977,7 +917,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00079">79</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00076">76</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -991,7 +931,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00076">76</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00073">73</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -1005,7 +945,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00080">80</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00077">77</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -1022,7 +962,7 @@ Functions</h2></td></tr>
 
 <p>range for block distribution </p>
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00251">251</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00239">239</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -1071,7 +1011,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00259">259</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00247">247</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -1096,7 +1036,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00333">333</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00321">321</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -1122,7 +1062,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00330">330</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00318">318</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -1144,7 +1084,7 @@ template&lt;typename T &gt; </div>
 
 <p>OMGWTFBBQ <a class="el" href="namespace_grappa.html" title="this core&#39;s base pointer ">Grappa</a> magic identity function Use this to get a pointer to a template function inside a template function, etc. </p>
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00215">215</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00203">203</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -1186,7 +1126,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00271">271</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00259">259</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -1245,7 +1185,7 @@ template&lt;typename Container , typename Comparator &gt; </div>
 
 <p>Helper for invoking 'std::min_element' on containers. </p>
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00221">221</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00209">209</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -1283,7 +1223,7 @@ template&lt;typename Container , typename Comparator &gt; </div>
 
 <p>Helper for invoking 'std::min_element' on containers. </p>
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00227">227</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00215">215</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -1315,7 +1255,7 @@ template&lt;typename T , typename Comparator &gt; </div>
 
 <p>Helper for invoking 'std::min_element' on a <a class="el" href="struct_range.html" title="Range type that represents the values [start,end). ">Range</a>. </p>
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00240">240</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00228">228</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>
@@ -1351,7 +1291,7 @@ template&lt;typename T , typename Comparator &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="common_8hpp_source.html#l00254">254</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
+<p>Definition at line <a class="el" href="common_8hpp_source.html#l00242">242</a> of file <a class="el" href="common_8hpp_source.html">common.hpp</a>.</p>
 
 </div>
 </div>

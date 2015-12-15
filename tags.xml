@@ -1353,20 +1353,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>MAX</name>
-      <anchorfile>common_8hpp.html</anchorfile>
-      <anchor>afa99ec4acc4ecb2dc3c2d05da15d0e3f</anchor>
-      <arglist>(a, b)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MIN</name>
-      <anchorfile>common_8hpp.html</anchorfile>
-      <anchor>a3acffbd305ee72dcd4593c0d8af64a4f</anchor>
-      <arglist>(a, b)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>ALIGN_UP</name>
       <anchorfile>common_8hpp.html</anchorfile>
       <anchor>a2f62b3cca99dd27d1e326a2cf084beee</anchor>
@@ -3986,20 +3972,6 @@
       <anchor>a319fae853819981f369f058316ef6caf</anchor>
       <arglist></arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>unbound</name>
-      <anchorfile>_grappa_8hpp.html</anchorfile>
-      <anchor>a8c30457bc353d908bcd82438bc27c9ef</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>async</name>
-      <anchorfile>_grappa_8hpp.html</anchorfile>
-      <anchor>ada84521eeb4bb9ac422d21429806aff3</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="function">
       <type>void</type>
       <name>init</name>
@@ -4013,6 +3985,20 @@
       <anchorfile>namespace_grappa.html</anchorfile>
       <anchor>a661c56b3ed1f67b0ae3228e67a738380</anchor>
       <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <type>const auto</type>
+      <name>unbound</name>
+      <anchorfile>namespace_grappa.html</anchorfile>
+      <anchor>a662afa7aa24eb2276aae1d9d54ed3dae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const auto</type>
+      <name>async</name>
+      <anchorfile>namespace_grappa.html</anchorfile>
+      <anchor>a22fc185196c687941a35e5cb6da27e53</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -19388,6 +19374,20 @@
       <name>master_thread</name>
       <anchorfile>namespace_grappa.html</anchorfile>
       <anchor>a3e3907937e4e1aca6bc5019ec38687e1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const auto</type>
+      <name>unbound</name>
+      <anchorfile>namespace_grappa.html</anchorfile>
+      <anchor>a662afa7aa24eb2276aae1d9d54ed3dae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const auto</type>
+      <name>async</name>
+      <anchorfile>namespace_grappa.html</anchorfile>
+      <anchor>a22fc185196c687941a35e5cb6da27e53</anchor>
       <arglist></arglist>
     </member>
   </compound>
