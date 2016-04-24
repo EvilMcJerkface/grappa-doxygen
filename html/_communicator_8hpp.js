@@ -6,6 +6,7 @@ var _communicator_8hpp =
     [ "Core", "_communicator_8hpp.html#a3a0af41b6e127e7f96781ce84aa9d40e", null ],
     [ "Locale", "_communicator_8hpp.html#a6ecf8097f2a94b9da0f855a386d4570b", null ],
     [ "cores", "_communicator_8hpp.html#ga555f2bf877bea827ace1d7c969b763f9", null ],
+    [ "hostname", "_communicator_8hpp.html#ga18513693ce4514f8d2c7fbc9eec0975a", null ],
     [ "locale_cores", "_communicator_8hpp.html#ga267489699cd07db87caa07c9784dbac5", null ],
     [ "locale_mycore", "_communicator_8hpp.html#ga807b9abe099d881ca3b479a1ff95a514", null ],
     [ "locale_of", "_communicator_8hpp.html#gaebb0c9c0eb25b74767305df3ae81915a", null ],

@@ -1757,6 +1757,13 @@
       <anchor>gaebb0c9c0eb25b74767305df3ae81915a</anchor>
       <arglist>(Core c)</arglist>
     </member>
+    <member kind="function">
+      <type>const char *</type>
+      <name>hostname</name>
+      <anchorfile>group___communication.html</anchorfile>
+      <anchor>ga18513693ce4514f8d2c7fbc9eec0975a</anchor>
+      <arglist>()</arglist>
+    </member>
     <member kind="variable">
       <type>Communicator</type>
       <name>global_communicator</name>
@@ -18621,6 +18628,13 @@
       <arglist>(Core c)</arglist>
     </member>
     <member kind="function">
+      <type>const char *</type>
+      <name>hostname</name>
+      <anchorfile>group___communication.html</anchorfile>
+      <anchor>ga18513693ce4514f8d2c7fbc9eec0975a</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
       <type>void</type>
       <name>complete</name>
       <anchorfile>group___synchronization.html</anchorfile>
@@ -20550,6 +20564,13 @@
       <anchorfile>group___communication.html</anchorfile>
       <anchor>gaebb0c9c0eb25b74767305df3ae81915a</anchor>
       <arglist>(Core c)</arglist>
+    </member>
+    <member kind="function">
+      <type>const char *</type>
+      <name>hostname</name>
+      <anchorfile>group___communication.html</anchorfile>
+      <anchor>ga18513693ce4514f8d2c7fbc9eec0975a</anchor>
+      <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>Grappa::Message Grappa::impl::MessageBase</type>

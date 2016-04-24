@@ -5,5 +5,5 @@ var searchData=
   ['heap_5fmessage',['heap_message',['../group___communication.html#ga02e73aabbd5b68bc579361d6373abae1',1,'Grappa::heap_message(Core dest, T t)'],['../group___communication.html#ga4037ea3ff68f1f75cca95bbc4265d0bd',1,'Grappa::heap_message(Core dest, T t, void *payload, size_t payload_size)']]],
   ['histogram_5fsample',['histogram_sample',['../namespace_grappa_1_1_metrics.html#a932a94933dfd36f2a8afffa047abdc2b',1,'Grappa::Metrics']]],
   ['histogrammetric',['HistogramMetric',['../class_grappa_1_1_histogram_metric.html#ab06b994279d1b126d12568dbaa2d918d',1,'Grappa::HistogramMetric']]],
-  ['hostname',['hostname',['../class_communicator.html#adbace0ae20cee7fdb339c78894e92bef',1,'Communicator']]]
+  ['hostname',['hostname',['../class_communicator.html#adbace0ae20cee7fdb339c78894e92bef',1,'Communicator::hostname()'],['../group___communication.html#ga18513693ce4514f8d2c7fbc9eec0975a',1,'Grappa::hostname()']]]
 ];

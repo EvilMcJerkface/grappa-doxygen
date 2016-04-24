@@ -12,5 +12,5 @@ var searchData=
   ['histogrammetric_2ecpp',['HistogramMetric.cpp',['../_histogram_metric_8cpp.html',1,'']]],
   ['histogrammetric_2ehpp',['HistogramMetric.hpp',['../_histogram_metric_8hpp.html',1,'']]],
   ['home_5fnode',['HOME_NODE',['../_global_queue_8hpp.html#a0f4163e1a97ad515ab7272d174bf6ff9',1,'GlobalQueue.hpp']]],
-  ['hostname',['hostname',['../class_communicator.html#adbace0ae20cee7fdb339c78894e92bef',1,'Communicator']]]
+  ['hostname',['hostname',['../class_communicator.html#adbace0ae20cee7fdb339c78894e92bef',1,'Communicator::hostname()'],['../group___communication.html#ga18513693ce4514f8d2c7fbc9eec0975a',1,'Grappa::hostname()']]]
 ];

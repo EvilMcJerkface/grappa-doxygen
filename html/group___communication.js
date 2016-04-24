@@ -65,6 +65,7 @@ var group___communication =
     [ "free", "group___communication.html#ga10f9c1f8a7a57a03d877938950bb97ac", null ],
     [ "heap_message", "group___communication.html#ga02e73aabbd5b68bc579361d6373abae1", null ],
     [ "heap_message", "group___communication.html#ga4037ea3ff68f1f75cca95bbc4265d0bd", null ],
+    [ "hostname", "group___communication.html#ga18513693ce4514f8d2c7fbc9eec0975a", null ],
     [ "init", "group___communication.html#ga2b310467dda74e5fcf6c08d78d557b35", null ],
     [ "locale_cores", "group___communication.html#ga267489699cd07db87caa07c9784dbac5", null ],
     [ "locale_mycore", "group___communication.html#ga807b9abe099d881ca3b479a1ff95a514", null ],

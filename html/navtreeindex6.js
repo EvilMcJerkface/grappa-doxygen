@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"class_grappa_1_1_global_hash_map.html#af9c2981b0a4c50e542a771ea6420a8fa":[5,0,0,17,5],
 "class_grappa_1_1_global_hash_map.html#afa1dc0c0a40aee17f6652306161a5b97":[5,0,0,17,17],
 "class_grappa_1_1_global_hash_set.html":[5,0,0,18],
 "class_grappa_1_1_global_hash_set.html#a142b9d64e3b4eab1f2d68ccaa600e706":[5,0,0,18,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "class_grappa_1_1_tuple_graph.html#ad72914e7688a6aaf012ef6ac07911fa8":[5,0,0,40,7],
 "class_grappa_1_1_tuple_graph.html#aff9c79c29f2509f7d85b54f989836ea0":[5,0,0,40,1],
 "class_grappa_1_1_worker.html":[5,0,0,41],
-"class_grappa_1_1_worker.html#a0c57cefbfdfca226b5a288e9c05bae0a":[5,0,0,41,11],
-"class_grappa_1_1_worker.html#a141023722336570203ca2def704d3801":[5,0,0,41,8]
+"class_grappa_1_1_worker.html#a0c57cefbfdfca226b5a288e9c05bae0a":[5,0,0,41,11]
 };

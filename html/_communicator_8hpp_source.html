@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Grappa
-   &#160;<span id="projectnumber">r3813, hash 4952c0efc3cbc487cc170248a07ce0cbeae37958</span>
+   &#160;<span id="projectnumber">r3816, hash 44736cfe426f1b1b60d15a2167a2b096757b8249</span>
    </div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -379,14 +379,17 @@ $(document).ready(function(){initNavTree('_communicator_8hpp_source.html','');})
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;</div>
 <div class="line"><a name="l00331"></a><span class="lineno"><a class="line" href="group___communication.html#gaebb0c9c0eb25b74767305df3ae81915a">  331</a></span>&#160;<span class="keyword">inline</span> <span class="keyword">const</span> <a class="code" href="_communicator_8hpp.html#a6ecf8097f2a94b9da0f855a386d4570b">Locale</a> <a class="code" href="group___communication.html#gaebb0c9c0eb25b74767305df3ae81915a">locale_of</a>(<a class="code" href="namespace_grappa.html#a2d83baf92a7c7db4fe0db5a99b72ffc5">Core</a> c) { <span class="keywordflow">return</span> global_communicator.<a class="code" href="class_communicator.html#a986691bd7d29970eb920469424664495">locale_of</a>(c); }</div>
 <div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;}</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;</div>
-<div class="line"><a name="l00337"></a><span class="lineno"><a class="line" href="_communicator_8hpp.html#af867e987375702556512178ef6d43123">  337</a></span>&#160;<span class="preprocessor">#define MASTER_ONLY if (Grappa::mycore() == 0)</span></div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00334"></a><span class="lineno"><a class="line" href="group___communication.html#ga18513693ce4514f8d2c7fbc9eec0975a">  334</a></span>&#160;<span class="keyword">inline</span> <span class="keyword">const</span> <span class="keywordtype">char</span> * <a class="code" href="group___communication.html#ga18513693ce4514f8d2c7fbc9eec0975a">hostname</a>() { <span class="keywordflow">return</span> global_communicator.<a class="code" href="class_communicator.html#adbace0ae20cee7fdb339c78894e92bef">hostname</a>(); }</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;}</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;</div>
+<div class="line"><a name="l00340"></a><span class="lineno"><a class="line" href="_communicator_8hpp.html#af867e987375702556512178ef6d43123">  340</a></span>&#160;<span class="preprocessor">#define MASTER_ONLY if (Grappa::mycore() == 0)</span></div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="group___communication_html_ga807b9abe099d881ca3b479a1ff95a514"><div class="ttname"><a href="group___communication.html#ga807b9abe099d881ca3b479a1ff95a514">Grappa::locale_mycore</a></div><div class="ttdeci">const Core locale_mycore()</div><div class="ttdoc">What&#39;s my core ID within my shared memory domain? </div><div class="ttdef"><b>Definition:</b> <a href="_communicator_8hpp_source.html#l00322">Communicator.hpp:322</a></div></div>
 <div class="ttc" id="class_communicator_html_a317526085a50b4762a3796a90c1e4dd2"><div class="ttname"><a href="class_communicator.html#a317526085a50b4762a3796a90c1e4dd2">Communicator::send_immediate</a></div><div class="ttdeci">void send_immediate(int dest, F f)</div><div class="ttdef"><b>Definition:</b> <a href="_communicator_8hpp_source.html#l00220">Communicator.hpp:220</a></div></div>
+<div class="ttc" id="group___communication_html_ga18513693ce4514f8d2c7fbc9eec0975a"><div class="ttname"><a href="group___communication.html#ga18513693ce4514f8d2c7fbc9eec0975a">Grappa::hostname</a></div><div class="ttdeci">const char * hostname()</div><div class="ttdoc">What name does MPI think this node has? </div><div class="ttdef"><b>Definition:</b> <a href="_communicator_8hpp_source.html#l00334">Communicator.hpp:334</a></div></div>
 <div class="ttc" id="class_communicator_html_ad95e1c9e8d5bb7426942fccb237c9983"><div class="ttname"><a href="class_communicator.html#ad95e1c9e8d5bb7426942fccb237c9983">Communicator::barrier_try</a></div><div class="ttdeci">bool barrier_try()</div><div class="ttdoc">Global (anonymous) two-phase barrier try (ALLNODES) </div><div class="ttdef"><b>Definition:</b> <a href="_communicator_8hpp_source.html#l00297">Communicator.hpp:297</a></div></div>
 <div class="ttc" id="group___communication_html_gad7a90083b28f17590bdcb069172f33f6"><div class="ttname"><a href="group___communication.html#gad7a90083b28f17590bdcb069172f33f6">Grappa::mycore</a></div><div class="ttdeci">const Core mycore()</div><div class="ttdoc">What&#39;s my core ID in this job? </div><div class="ttdef"><b>Definition:</b> <a href="_communicator_8hpp_source.html#l00316">Communicator.hpp:316</a></div></div>
 <div class="ttc" id="class_communicator_html_a056607615009777760f734bb6679a53a"><div class="ttname"><a href="class_communicator.html#a056607615009777760f734bb6679a53a">Communicator::allreduce_inplace</a></div><div class="ttdeci">void allreduce_inplace(T *p, MPI_Datatype type, MPI_Op op)</div><div class="ttdef"><b>Definition:</b> <a href="_communicator_8hpp_source.html#l00287">Communicator.hpp:287</a></div></div>
